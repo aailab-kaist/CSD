@@ -33,7 +33,7 @@ Direct Logit Distillation (DLD) matches logits with an MSE loss, but its exact-m
 - **Operates directly on logits**, complementing probability-space objectives.
 - **Respects logit shift invariance** — its optimal solution set is a superset of DLD's.
 - **Linear-time** in vocabulary size despite a pairwise formulation.
-- **A design space, not a single loss** — flexible weighting functions `(w1, w2)` recover both mode-seeking and mode-covering instances and allow tuning along the fidelity–diversity trade-off.
+- **A design space with arbitrary positive weighting** — flexible weighting functions `(w1, w2)` recover both mode-seeking and mode-covering instances and allow tuning along the fidelity–diversity trade-off.
 
 We evaluate CSD on task-agnostic instruction following, task-specific distillation (summarization / translation / math), and general chat, across backbones up to 7B (GPT-2, OpenLLaMA, Gemma, Qwen2.5, Gemma2).
 
