@@ -124,3 +124,16 @@ This work is heavily built upon the code from
 - *Ko, Jongwoo, et al. "Distillm: Towards streamlined distillation for large language models." International Conference on Machine Learning* [Paper](https://arxiv.org/abs/2402.03898), [Code](https://github.com/jongwooko/distillm)
 - *Ko, Jongwoo, et al. "Distillm-2: A contrastive approach boosts the distillation of large language models." International Conference on Machine Learning* [Paper](https://arxiv.org/abs/2503.07067), [Code](https://github.com/jongwooko/distillm-2)
 - *Xu, Wenda, et al. "Speculative knowledge distillation: Bridging the teacher-student gap through interleaved sampling." International Conference on Learning Representations.* [Paper](https://arxiv.org/abs/2410.11325), [Code](https://github.com/google-research/google-research/tree/master/speculative_kd)
+
+## Citation
+If you use this code or find our work helpful, please consider citing our paper:
+
+```bibtex
+@inproceedings{kim2026distillation,
+title={Distillation of Large Language Models via Concrete Score Matching},
+author={Yeongmin Kim and Donghyeok Shin and Mina Kang and Byeonghu Na and Il-chul Moon},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=bZBJFrxH1H}
+}
+```
